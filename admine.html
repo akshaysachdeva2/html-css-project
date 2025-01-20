@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Enrollments Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        caption {
+            caption-side: top;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .total-row {
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="new_cn_logo.svg">
+        </a>
+    </header>
+    <h1>admin dashboard</h1>
+    <hr>
+
+    <table>
+        <caption>List of User Enrollments</caption>
+        <tr>
+            <th>User ID</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Course ID</th>
+            <th>Course Title</th>
+        </tr>
+        <tr>
+            <td rowspan="3">1</td>
+            <td rowspan="3">John Doe</td>
+            <td rowspan="3">john.doe@example.com</td>
+            <td>101</td>
+            <td>Web Development</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Data Science Basics</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Digital Marketing Strategies</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>jane.smith@example.com</td>
+            <td>101</td>
+            <td>Web Development</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Bob Johnson</td>
+            <td>bob.johnson@example.com</td>
+            <td>104</td>
+            <td>Mobile App Development</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Alice Williams</td>
+            <td>alice.williams@example.com</td>
+            <td>105</td>
+            <td>Machine Learning Fundamentals</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Will Smith</td>
+            <td>will.smith@example.com</td>
+            <td>106</td>
+            <td>Android Development</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Sammy Zach</td>
+            <td>sammy.zach@example.com</td>
+            <td>107</td>
+            <td>Node JS</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Nancy Drew</td>
+            <td>nancy.drew@example.com</td>
+            <td>108</td>
+            <td>React JS</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="total-row">Total Enrollments: 7</td>
+        </tr>
+    </table>
+
+</body>
+</html>
